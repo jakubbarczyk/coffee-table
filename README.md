@@ -6,9 +6,6 @@ Coffee Table is a lightweight tabular data structure for Java. It comes handy wh
   - chain API methods for improved readability
   - save oceans of your precious time
 
-### Version
-1.2.7
-
 ### API
 ##### addColumn(header [, columnCell ...])
 Adds a headered column to a table. Column cell values may be passed in. Their references will be mapped onto any existing row cells.
@@ -56,5 +53,8 @@ myTable
 myTable.setCellValue(0, 1, "Christopher").removeColumn(2);
 ```
 
+### Version
+1.2.8
+
 ### License
-Coffee Table is released under the terms of the MIT license (see LICENSE.md).
+[MIT](http://ilee.mit-license.org)
