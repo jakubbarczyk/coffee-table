@@ -28,7 +28,7 @@ public final class Table<T> {
 	}
 	
 	/**
-	 * @param index index of the column to get values from
+	 * @param index the index of the column to get values from
 	 * @return array of the column's values
 	 */
 	public final List<T> getColumnValues(int index) {
@@ -54,7 +54,7 @@ public final class Table<T> {
 	}
 
 	/**
-	 * @param index index of the column to be removed
+	 * @param index the index of the column to be removed
 	 * @return this table's instance
 	 */
 	public final Table<T> removeColumn(int index) {
@@ -76,7 +76,7 @@ public final class Table<T> {
 	}
 
 	/**
-	 * @param index index of the row to get values from
+	 * @param index the index of the row to get values from
 	 * @return array of the row's values
 	 */
 	public final List<T> getRowValues(int index) {
@@ -101,7 +101,7 @@ public final class Table<T> {
 	}
 
 	/**
-	 * @param index index of the row to be removed
+	 * @param index the index of the row to be removed
 	 * @return this table's instance
 	 */
 	public final Table<T> removeRow(int index) {		
@@ -116,8 +116,8 @@ public final class Table<T> {
 	}
 
 	/**
-	 * @param column index of the column to get the value from
-	 * @param row index of the row to get the value from
+	 * @param column the index of the column to get the value from
+	 * @param row the index of the row to get the value from
 	 * @return the value of the specified cell
 	 */
 	public final T getCellValue(int column, int row) {
@@ -125,8 +125,8 @@ public final class Table<T> {
 	}
 	
 	/**
-	 * @param column index of the column to set the value on
-	 * @param row index of the row to set the value on
+	 * @param column the index of the column to set the value on
+	 * @param row the index of the row to set the value on
 	 * @param value the value to be set
 	 * @return this table's instance
 	 */
